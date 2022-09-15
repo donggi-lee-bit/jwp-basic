@@ -1,15 +1,13 @@
 package next.web;
 
+import core.db.DataBase;
 import java.io.IOException;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import core.db.DataBase;
 
 @WebServlet("/user/list")
 public class ListUserServlet extends HttpServlet {
